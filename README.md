@@ -958,3 +958,42 @@ And when possible:
 No open-source license has been selected yet.
 
 Until a license is added, no permission beyond applicable copyright law should be assumed.
+
+## At a Glance
+
+| Dimension | Current State |
+|---|---|
+| **Stage** | Phase Zero — Research and Thesis Validation |
+| **Domain** | Evidence-bounded execution intelligence |
+| **Primary Primitive** | Evidence-Bounded Claim |
+| **Core Invariant** | No claim without provenance |
+| **Primary Research Question** | What can be defensibly claimed from incomplete and potentially untrustworthy execution evidence? |
+| **Current Focus** | Provenance, sensor capability, negative evidence, temporal uncertainty, contradiction, trust degradation |
+| **Human Role** | Analyst remains first-class; automation must preserve reviewability |
+| **AI Role** | Optional reasoning assistance; never raw evidence |
+| **Security Boundary** | Defensive analysis and assurance research |
+| **Implementation Status** | Research model and repository discipline established; production platform not yet claimed |
+
+### Navigate
+
+[Research Thesis](#research-thesis) ·
+[Evidence-Bounded Claim](#evidence-bounded-claim) ·
+[Execution Pipeline](#execution-intelligence-pipeline) ·
+[Architecture](#provisional-architecture-hypothesis) ·
+[Project State](#current-project-state) ·
+[Roadmap](ROADMAP.md) ·
+[Engineering Principles](docs/engineering/ENGINEERING_PRINCIPLES.md) ·
+[Security](SECURITY.md) ·
+[Contributing](CONTRIBUTING.md)
+
+### Current Research Gate
+
+**Research Gate 0 — Establish whether claim-level provenance, observation capability, sensor health, contradiction, temporal uncertainty, and trust dependencies materially improve the defensibility of execution analysis.**
+
+The gate is passed by evidence, not by implementation volume.
+
+Before flagship engineering begins, ELENCHION must produce a falsifiable model, controlled experiments, measurable failure cases, and a benchmark capable of distinguishing evidence-bounded reasoning from ordinary event-centric reporting.
+
+---
+
+
