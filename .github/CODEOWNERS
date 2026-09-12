@@ -1,0 +1,12 @@
+# ELENCHION repository ownership
+* @julianvanceblackwood
+
+# Security and governance
+/SECURITY.md @julianvanceblackwood
+/CONTRIBUTING.md @julianvanceblackwood
+/.github/ @julianvanceblackwood
+
+# Research and engineering documentation
+/docs/ @julianvanceblackwood
+/ROADMAP.md @julianvanceblackwood
+

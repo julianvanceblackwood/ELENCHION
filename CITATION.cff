@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use or reference ELENCHION in research or technical work, please cite this repository."
+title: "ELENCHION: Evidence-Bounded Execution Intelligence Under Hostile Scrutiny"
+type: software
+
+authors:
+  - family-names: "Blackwood"
+    given-names: "Julian Vance"
+
+repository-code: "https://github.com/julianvanceblackwood/ELENCHION"
+url: "https://github.com/julianvanceblackwood/ELENCHION"
+
+abstract: >
+  ELENCHION is an open research and engineering project investigating
+  evidence-bounded execution intelligence: how defensible knowledge can
+  be reconstructed from program execution when observation is incomplete,
+  sensors have limits, clocks disagree, evidence conflicts, and evidence
+  sources may become untrusted.
+
+keywords:
+  - execution intelligence
+  - digital forensics
+  - evidence provenance
+  - uncertainty
+  - security research
+  - reproducibility
+  - malware analysis
+  - trust degradation
