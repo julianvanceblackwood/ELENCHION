@@ -10,7 +10,7 @@ It is not intended to become another verdict engine, malware dashboard, sandbox 
 
 The central problem is narrower and harder:
 
-> **How much of an execution do we actually know — and why are we justified in claiming that we know it?**
+> **How much of an execution do we actually know and why are we justified in claiming that we know it?**
 
 ---
 
@@ -18,7 +18,7 @@ The central problem is narrower and harder:
 
 | Dimension | Current State |
 |---|---|
-| **Stage** | Phase Zero — Research and Thesis Validation |
+| **Stage** | Phase Zero Research and Thesis Validation |
 | **Domain** | Evidence-bounded execution intelligence |
 | **Primary Primitive** | Evidence-Bounded Claim |
 | **Core Invariant** | No claim without provenance |
@@ -43,7 +43,7 @@ The central problem is narrower and harder:
 
 ### Current Research Gate
 
-**Research Gate 0 — Establish whether claim-level provenance, observation capability, sensor health, contradiction, temporal uncertainty, and trust dependencies materially improve the defensibility of execution analysis.**
+**Research Gate 0: Establish whether claim-level provenance, observation capability, sensor health, contradiction, temporal uncertainty, and trust dependencies materially improve the defensibility of execution analysis.**
 
 The gate is passed by evidence, not by implementation volume.
 
@@ -185,7 +185,7 @@ Engine Version
 
 ### 2. Absence of Evidence Is Not Automatically Evidence of Absence
 
-If no file-write event appears, possible explanations include:
+If no file write event appears, possible explanations include:
 
 ```text
 No write occurred.
@@ -775,7 +775,7 @@ A failed hypothesis is an acceptable research result.
 
 ELENCHION is currently in:
 
-> **Phase Zero — Research and Thesis Validation**
+> **Phase Zero - Research and Thesis Validation**
 
 ### Established
 
