@@ -1,0 +1,6 @@
+[project]
+name = "elenchion"
+version = "0.0.0"
+description = "Phase Zero research harness for evidence-bounded execution intelligence."
+requires-python = ">=3.13"
+dependencies = []

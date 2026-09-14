@@ -1,0 +1,141 @@
+[1mdiff --git a/CITATION.cff b/CITATION.cff[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c333075[m
+[1m--- /dev/null[m
+[1m+++ b/CITATION.cff[m
+[36m@@ -0,0 +1,28 @@[m
+[32m+[m[32mcff-version: 1.2.0[m
+[32m+[m[32mmessage: "If you use or reference ELENCHION in research or technical work, please cite this repository."[m
+[32m+[m[32mtitle: "ELENCHION: Evidence-Bounded Execution Intelligence Under Hostile Scrutiny"[m
+[32m+[m[32mtype: software[m
+[32m+[m
+[32m+[m[32mauthors:[m
+[32m+[m[32m  - family-names: "Blackwood"[m
+[32m+[m[32m    given-names: "Julian Vance"[m
+[32m+[m
+[32m+[m[32mrepository-code: "https://github.com/julianvanceblackwood/ELENCHION"[m
+[32m+[m[32murl: "https://github.com/julianvanceblackwood/ELENCHION"[m
+[32m+[m
+[32m+[m[32mabstract: >[m
+[32m+[m[32m  ELENCHION is an open research and engineering project investigating[m
+[32m+[m[32m  evidence-bounded execution intelligence: how defensible knowledge can[m
+[32m+[m[32m  be reconstructed from program execution when observation is incomplete,[m
+[32m+[m[32m  sensors have limits, clocks disagree, evidence conflicts, and evidence[m
+[32m+[m[32m  sources may become untrusted.[m
+[32m+[m
+[32m+[m[32mkeywords:[m
+[32m+[m[32m  - execution intelligence[m
+[32m+[m[32m  - digital forensics[m
+[32m+[m[32m  - evidence provenance[m
+[32m+[m[32m  - uncertainty[m
+[32m+[m[32m  - security research[m
+[32m+[m[32m  - reproducibility[m
+[32m+[m[32m  - malware analysis[m
+[32m+[m[32m  - trust degradation[m
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 32377a7..013b997 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -14,6 +14,43 @@[m [mThe central problem is narrower and harder:[m
+ [m
+ ---[m
+ [m
+[32m+[m[32m## At a Glance[m
+[32m+[m
+[32m+[m[32m| Dimension | Current State |[m
+[32m+[m[32m|---|---|[m
+[32m+[m[32m| **Stage** | Phase Zero — Research and Thesis Validation |[m
+[32m+[m[32m| **Domain** | Evidence-bounded execution intelligence |[m
+[32m+[m[32m| **Primary Primitive** | Evidence-Bounded Claim |[m
+[32m+[m[32m| **Core Invariant** | No claim without provenance |[m
+[32m+[m[32m| **Primary Research Question** | What can be defensibly claimed from incomplete and potentially untrustworthy execution evidence? |[m
+[32m+[m[32m| **Current Focus** | Provenance, sensor capability, negative evidence, temporal uncertainty, contradiction, trust degradation |[m
+[32m+[m[32m| **Human Role** | Analyst remains first-class; automation must preserve reviewability |[m
+[32m+[m[32m| **AI Role** | Optional reasoning assistance; never raw evidence |[m
+[32m+[m[32m| **Security Boundary** | Defensive analysis and assurance research |[m
+[32m+[m[32m| **Implementation Status** | Research model and repository discipline established; production platform not yet claimed |[m
+[32m+[m
+[32m+[m[32m### Navigate[m
+[32m+[m
+[32m+[m[32m[Research Thesis](#research-thesis) ·[m
+[32m+[m[32m[Evidence-Bounded Claim](#evidence-bounded-claim) ·[m
+[32m+[m[32m[Execution Pipeline](#execution-intelligence-pipeline) ·[m
+[32m+[m[32m[Architecture](#provisional-architecture-hypothesis) ·[m
+[32m+[m[32m[Project State](#current-project-state) ·[m
+[32m+[m[32m[Roadmap](ROADMAP.md) ·[m
+[32m+[m[32m[Engineering Principles](docs/engineering/ENGINEERING_PRINCIPLES.md) ·[m
+[32m+[m[32m[Security](SECURITY.md) ·[m
+[32m+[m[32m[Contributing](CONTRIBUTING.md)[m
+[32m+[m
+[32m+[m[32m### Current Research Gate[m
+[32m+[m
+[32m+[m[32m**Research Gate 0 — Establish whether claim-level provenance, observation capability, sensor health, contradiction, temporal uncertainty, and trust dependencies materially improve the defensibility of execution analysis.**[m
+[32m+[m
+[32m+[m[32mThe gate is passed by evidence, not by implementation volume.[m
+[32m+[m
+[32m+[m[32mBefore flagship engineering begins, ELENCHION must produce a falsifiable model, controlled experiments, measurable failure cases, and a benchmark capable of distinguishing evidence-bounded reasoning from ordinary event-centric reporting.[m
+[32m+[m
+[32m+[m[32m---[m
+[32m+[m
+ ## The Problem[m
+ [m
+ Traditional execution analysis often collapses a complex observation process into a simple pipeline:[m
+[36m@@ -958,42 +995,3 @@[m [mAnd when possible:[m
+ No open-source license has been selected yet.[m
+ [m
+ Until a license is added, no permission beyond applicable copyright law should be assumed.[m
+[31m-[m
+[31m-## At a Glance[m
+[31m-[m
+[31m-| Dimension | Current State |[m
+[31m-|---|---|[m
+[31m-| **Stage** | Phase Zero — Research and Thesis Validation |[m
+[31m-| **Domain** | Evidence-bounded execution intelligence |[m
+[31m-| **Primary Primitive** | Evidence-Bounded Claim |[m
+[31m-| **Core Invariant** | No claim without provenance |[m
+[31m-| **Primary Research Question** | What can be defensibly claimed from incomplete and potentially untrustworthy execution evidence? |[m
+[31m-| **Current Focus** | Provenance, sensor capability, negative evidence, temporal uncertainty, contradiction, trust degradation |[m
+[31m-| **Human Role** | Analyst remains first-class; automation must preserve reviewability |[m
+[31m-| **AI Role** | Optional reasoning assistance; never raw evidence |[m
+[31m-| **Security Boundary** | Defensive analysis and assurance research |[m
+[31m-| **Implementation Status** | Research model and repository discipline established; production platform not yet claimed |[m
+[31m-[m
+[31m-### Navigate[m
+[31m-[m
+[31m-[Research Thesis](#research-thesis) ·[m
+[31m-[Evidence-Bounded Claim](#evidence-bounded-claim) ·[m
+[31m-[Execution Pipeline](#execution-intelligence-pipeline) ·[m
+[31m-[Architecture](#provisional-architecture-hypothesis) ·[m
+[31m-[Project State](#current-project-state) ·[m
+[31m-[Roadmap](ROADMAP.md) ·[m
+[31m-[Engineering Principles](docs/engineering/ENGINEERING_PRINCIPLES.md) ·[m
+[31m-[Security](SECURITY.md) ·[m
+[31m-[Contributing](CONTRIBUTING.md)[m
+[31m-[m
+[31m-### Current Research Gate[m
+[31m-[m
+[31m-**Research Gate 0 — Establish whether claim-level provenance, observation capability, sensor health, contradiction, temporal uncertainty, and trust dependencies materially improve the defensibility of execution analysis.**[m
+[31m-[m
+[31m-The gate is passed by evidence, not by implementation volume.[m
+[31m-[m
+[31m-Before flagship engineering begins, ELENCHION must produce a falsifiable model, controlled experiments, measurable failure cases, and a benchmark capable of distinguishing evidence-bounded reasoning from ordinary event-centric reporting.[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-[m
+[1mdiff --git a/ROADMAP.md b/ROADMAP.md[m
+[1mindex b67c31b..a9b7ca5 100644[m
+[1m--- a/ROADMAP.md[m
+[1m+++ b/ROADMAP.md[m
+[36m@@ -56,9 +56,9 @@[m [mOBSERVED[m
+ [m
+ UNKNOWN[m
+ [m
+[31m-NOT COLLECTED[m
+[32m+[m[32mNOT_COLLECTED[m
+ [m
+[31m-COLLECTION FAILED[m
+[32m+[m[32mCOLLECTION_FAILED[m
+ [m
+ UNOBSERVABLE[m
+ [m
