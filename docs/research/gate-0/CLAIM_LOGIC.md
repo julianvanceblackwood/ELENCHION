@@ -2,6 +2,8 @@
 
 ## Status
 
+Companion specification: [Epistemic Boundaries](EPISTEMIC_BOUNDARIES.md)
+
 **Research specification: provisional**
 
 This document defines the initial logical boundaries governing propositions, observations, evidence, inference, contradiction, and defensible claims within Research Gate 0.
@@ -489,7 +491,7 @@ P → Q
 
 This is Modus Tollens.
 
-In an evidence bounded system, the second premise must genuinely support:
+In an evidence-bounded system, the second premise must genuinely support:
 
 ```text
 ¬Q
@@ -943,7 +945,7 @@ Reasoning Integrity
 and:
 
 ```text
-Evidence Bounded Premises
+Evidence-Bounded Premises
 ```
 
 Conceptually:
@@ -1135,9 +1137,9 @@ likelihood ratios
 
 confidence scores
 
-three valued logic
+three-valued logic
 
-many valued logic
+many-valued logic
 
 paraconsistent logic
 
