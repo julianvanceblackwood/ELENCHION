@@ -36,6 +36,7 @@ The central problem is narrower and harder:
 [Execution Pipeline](#execution-intelligence-pipeline) ·
 [Architecture](#provisional-architecture-hypothesis) ·
 [Project State](#current-project-state) ·
+[Research Gate 0](docs/research/gate-0/README.md) ·
 [Roadmap](ROADMAP.md) ·
 [Engineering Principles](docs/engineering/ENGINEERING_PRINCIPLES.md) ·
 [Development Method](docs/engineering/DEVELOPMENT_METHOD.md) ·
@@ -47,6 +48,8 @@ The central problem is narrower and harder:
 **Research Gate 0: Establish whether claim-level provenance, observation capability, sensor health, contradiction, temporal uncertainty, and trust dependencies materially improve the defensibility of execution analysis.**
 
 The gate is passed by evidence, not by implementation volume.
+
+Research packet: [`docs/research/gate-0/`](docs/research/gate-0/README.md)
 
 Before flagship engineering begins, ELENCHION must produce a falsifiable model, controlled experiments, measurable failure cases, and a benchmark capable of distinguishing evidence-bounded reasoning from ordinary event-centric reporting.
 
