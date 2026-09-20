@@ -8,7 +8,7 @@ The project deliberately separates research validation from production engineeri
 
 ---
 
-## Phase Zero — Research and Thesis Validation
+## Phase Zero: Research and Thesis Validation
 
 **Current phase**
 
@@ -84,7 +84,7 @@ Phase Zero is complete only when the project has:
 
 ---
 
-## Phase One — Evidence Kernel Prototype
+## Phase One: Evidence Kernel Prototype
 
 ### Objective
 
@@ -123,7 +123,7 @@ The prototype exists to test the research model.
 
 ---
 
-## Phase Two — Multi-Source and Multi-Run Reconstruction
+## Phase Two: Multi-Source and Multi-Run Reconstruction
 
 ### Objective
 
@@ -159,7 +159,7 @@ Test whether the model survives disagreement across sensors, environments, runti
 
 ---
 
-## Phase Three — Containment, Integrity, and Assurance
+## Phase Three: Containment, Integrity, and Assurance
 
 ### Objective
 
@@ -192,7 +192,7 @@ Security properties must be validated rather than merely documented.
 
 ---
 
-## Phase Four — Integrated Execution Intelligence
+## Phase Four: Integrated Execution Intelligence
 
 ### Objective
 
@@ -222,7 +222,7 @@ Capabilities enter this phase only if previous research justifies them.
 
 ---
 
-## Phase Five — Public Research and Evaluation
+## Phase Five: Public Research and Evaluation
 
 ### Objective
 

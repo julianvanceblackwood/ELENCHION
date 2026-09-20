@@ -94,7 +94,7 @@ A public artifact is not created merely to increase repository activity. It must
 
 ---
 
-## 2. Stage 0 — Define the Problem
+## 2. Stage 0: Define the Problem
 
 Implementation does not begin with a framework, language, database, service boundary, or architecture diagram.
 
@@ -115,7 +115,7 @@ A problem that cannot be explained clearly is not ready for implementation.
 
 ---
 
-## 3. Stage 1 — Build the Prerequisite Map
+## 3. Stage 1: Build the Prerequisite Map
 
 Before writing code, identify the knowledge required to reason about the problem without hiding behind abstractions.
 
@@ -147,7 +147,7 @@ The rule is:
 
 ---
 
-## 4. Stage 2 — Foundations Before Abstractions
+## 4. Stage 2: Foundations Before Abstractions
 
 A concept is developed from its primitive form before its software representation is introduced.
 
@@ -187,7 +187,7 @@ The purpose is not academic ceremony. The purpose is to prevent software syntax 
 
 ---
 
-## 5. Stage 3 — Establish the Mental Model
+## 5. Stage 3: Establish the Mental Model
 
 Before code, the system behavior should be explainable without code.
 
@@ -208,7 +208,7 @@ A clean mental model is not proof that the design is correct, but an unclear men
 
 ---
 
-## 6. Stage 4 — Microexperiment Before System Complexity
+## 6. Stage 4: Microexperiment Before System Complexity
 
 The smallest experiment capable of challenging the hypothesis is preferred over premature architecture.
 
@@ -243,7 +243,7 @@ Microexperiments should be:
 
 ---
 
-## 7. Stage 5 — Specify Before Generalizing
+## 7. Stage 5: Specify Before Generalizing
 
 Once the experiment exposes the required semantics, represent them explicitly.
 
@@ -266,7 +266,7 @@ A specification is allowed to change when experiments reveal a flaw.
 
 ---
 
-## 8. Stage 6 — VS Code Implementation
+## 8. Stage 6: VS Code Implementation
 
 Project code is written in **VS Code**.
 
@@ -300,7 +300,7 @@ Repeated concepts may be explained again. Familiarity is not assumed to equal un
 
 ---
 
-## 9. Stage 7 — Test the Invariant, Not the Demo
+## 9. Stage 7: Test the Invariant, Not the Demo
 
 Tests should target the semantic property the system claims to preserve.
 
@@ -332,7 +332,7 @@ The technique should follow the failure mode being tested.
 
 ---
 
-## 10. Stage 8 — Debug From Evidence
+## 10. Stage 8: Debug From Evidence
 
 Debugging is treated as hypothesis testing.
 
@@ -364,7 +364,7 @@ The goal is to identify why the system behaved as it did and preserve a test tha
 
 ---
 
-## 11. Stage 9 — Measure Before Performance Claims
+## 11. Stage 9: Measure Before Performance Claims
 
 Performance language requires measurement.
 
@@ -396,7 +396,7 @@ Optimization begins after the relevant bottleneck is identified.
 
 ---
 
-## 12. Stage 10 — Cross-Examine the Change
+## 12. Stage 10: Cross-Examine the Change
 
 Before merge, challenge the implementation as if the author were wrong.
 
@@ -418,7 +418,7 @@ Review is expected to create friction when the evidence is weak.
 
 ---
 
-## 13. Stage 11 — Git and GitHub Lifecycle
+## 13. Stage 11: Git and GitHub Lifecycle
 
 Substantive engineering work should normally follow:
 
@@ -458,7 +458,7 @@ Commit count is not a performance metric.
 
 ---
 
-## 14. Stage 12 — Convert Learning Into Engineering Evidence
+## 14. Stage 12: Convert Learning Into Engineering Evidence
 
 Not every lesson becomes a repository artifact.
 
@@ -485,7 +485,7 @@ The repository should demonstrate applied understanding rather than document eve
 
 ---
 
-## 15. Stage 13 — Portfolio Evidence
+## 15. Stage 13: Portfolio Evidence
 
 The public repository is treated as engineering evidence.
 
@@ -527,7 +527,7 @@ Activity theater is explicitly rejected.
 
 ---
 
-## 16. Stage 14 — Retrieval, Transfer, and Independent Reconstruction
+## 16. Stage 14: Retrieval, Transfer, and Independent Reconstruction
 
 Understanding is periodically tested without relying on the implementation in front of the developer.
 
@@ -549,7 +549,7 @@ If a concept cannot survive transfer, implementation familiarity may be hiding i
 
 ---
 
-## 17. Stage 15 — Gate Decision
+## 17. Stage 15: Gate Decision
 
 Every major development slice ends with a gate decision.
 
@@ -591,7 +591,7 @@ Benign deterministic experiments are preferred until a stronger research require
 
 ---
 
-## 19. Example — Research Gate 0
+## 19. Example: Research Gate 0
 
 The current gate illustrates the method.
 

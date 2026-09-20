@@ -6,7 +6,7 @@
 
 ELENCHION is an open research and engineering project investigating how defensible knowledge can be reconstructed from program execution when observation is incomplete, sensors have limits, clocks disagree, evidence conflicts, and uncertainty cannot honestly be eliminated.
 
-It is not intended to become another verdict engine, malware dashboard, sandbox wrapper, or AI-generated reporting layer.
+It is not intended to become another verdict engine, malware dashboard, sandbox wrapper, or automated reporting layer.
 
 The central problem is narrower and harder:
 
@@ -25,7 +25,7 @@ The central problem is narrower and harder:
 | **Primary Research Question** | What can be defensibly claimed from incomplete and potentially untrustworthy execution evidence? |
 | **Current Focus** | Provenance, sensor capability, negative evidence, temporal uncertainty, contradiction, trust degradation |
 | **Human Role** | Analyst remains first-class; automation must preserve reviewability |
-| **AI Role** | Optional reasoning assistance; never raw evidence |
+| **Automation Role** | Optional reasoning assistance; never raw evidence |
 | **Security Boundary** | Defensive analysis and assurance research |
 | **Implementation Status** | Research model and repository discipline established; production platform not yet claimed |
 
@@ -38,6 +38,7 @@ The central problem is narrower and harder:
 [Project State](#current-project-state) ·
 [Roadmap](ROADMAP.md) ·
 [Engineering Principles](docs/engineering/ENGINEERING_PRINCIPLES.md) ·
+[Development Method](docs/engineering/DEVELOPMENT_METHOD.md) ·
 [Security](SECURITY.md) ·
 [Contributing](CONTRIBUTING.md)
 
@@ -212,11 +213,11 @@ A caused B
 
 Temporal precedence, dependency, correlation, information flow, and causality must remain semantically distinct.
 
-### 4. AI Is Not Evidence
+### 4. Automation Is Not Evidence
 
-AI-generated text, hypotheses, classifications, or explanations are not raw evidence.
+Generated summaries, hypotheses, classifications, or explanations are not raw evidence.
 
-AI may assist reasoning only if its outputs remain traceable to supporting evidence and are clearly identified as derived or hypothetical.
+Automated assistance may support reasoning only when its outputs remain traceable to supporting evidence and are clearly identified as derived or hypothetical.
 
 ### 5. UNKNOWN Is a Valid Result
 
@@ -424,7 +425,7 @@ function evaluate_claim(claim):
         return UNKNOWN
 
     if material contradiction remains unresolved:
-        return CONTRADICTED or AMBIGUOUS
+        return CONTRADICTED
 
     return strongest_defensible_epistemic_state()
 ```
@@ -954,7 +955,7 @@ If those questions cannot yet be answered, the system should not pretend otherwi
 ELENCHION is not intended to be merely:
 
 ```text
-an AI malware analyzer
+a verdict-driven malware analyzer
 a malware chatbot
 an antivirus clone
 a sandbox clone

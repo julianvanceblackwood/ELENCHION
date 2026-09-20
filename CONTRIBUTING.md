@@ -14,7 +14,7 @@ Read:
 
 A contribution should have a clear relationship to the project's research or engineering mission.
 
-Complexity, novelty, automation, AI usage, or additional code are not sufficient reasons by themselves.
+Complexity, novelty, automation, or additional code are not sufficient reasons by themselves.
 
 ## When to Open an Issue
 
@@ -149,7 +149,7 @@ Unsupported certainty is not.
 
 ## Code Contributions
 
-Implementation should not begin by assuming an architecture, language, framework, database, graph model, AI model, or deployment pattern merely because it appears sophisticated.
+Implementation should not begin by assuming an architecture, language, framework, database, graph model, inference model, or deployment pattern merely because it appears sophisticated.
 
 Implementation choices should follow requirements.
 
@@ -172,11 +172,11 @@ Use explicit language such as:
 
 when those qualifiers are required.
 
-## Artificial Intelligence
+## Tool-Assisted Work
 
-AI-assisted contributions are permitted.
+Tool-assisted contributions are permitted.
 
-AI output is not evidence by default.
+Generated output is not evidence by default.
 
 The contributor remains responsible for correctness, licensing, security, provenance, validation, and every claim introduced into the repository.
 
