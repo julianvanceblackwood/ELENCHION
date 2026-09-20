@@ -392,21 +392,21 @@ Research results are allowed to change the architecture.
 
 ---
 
-## 18. Artificial Intelligence
+## 18. Automated Assistance
 
-AI output is not evidence by default.
+Generated output is not evidence by default.
 
-AI-generated hypotheses, summaries, transformations, or recommendations must not silently become factual findings.
+Generated hypotheses, summaries, transformations, or recommendations must not silently become factual findings.
 
-Where AI contributes to a conclusion, the system should preserve enough information to identify:
+Where automated tooling contributes to a conclusion, the system should preserve enough information to identify:
 
-* that AI was involved;
+* that automated assistance was involved;
 * the relevant model or system version where practical;
 * the evidence referenced;
 * the transformation performed;
 * the human or machine validation applied.
 
-Core evidence semantics must remain useful without AI.
+Core evidence semantics must remain useful without automated assistance.
 
 ---
 
