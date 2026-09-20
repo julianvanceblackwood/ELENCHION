@@ -200,7 +200,7 @@ production architecture
 database technology
 graph database technology
 distributed services
-AI reasoning systems
+automated reasoning systems
 probabilistic confidence models
 production sandbox infrastructure
 malware execution infrastructure
