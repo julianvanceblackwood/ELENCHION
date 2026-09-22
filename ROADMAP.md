@@ -210,7 +210,7 @@ Runtime Reconstruction
 Memory Evidence
 Evidence-Bounded Claims
 Contradiction Analysis
-Trust Degradation
+Trust-Degradation Analysis
 Cross-Run Comparison
 Query
 Analyst Review

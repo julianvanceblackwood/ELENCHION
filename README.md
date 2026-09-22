@@ -159,7 +159,7 @@ ELENCHION is being designed around several non-negotiable principles.
 
 ### 1. No Claim Without Provenance
 
-A significant conclusion should be traceable toward:
+A significant conclusion should be traceable to:
 
 ```text
 Claim
@@ -687,7 +687,7 @@ flowchart TD
 
     EBC --> Q[Query]
     EBC --> CMP[Compare]
-    EBC --> TD[Trust Degradation]
+    EBC --> TD[Trust-Degradation Analysis]
 
     Q --> INV[Investigation]
     CMP --> INV
