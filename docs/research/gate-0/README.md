@@ -159,7 +159,7 @@ Sensor C
 incapable of observing one event class
 ```
 
-The experiment must determine whether ELENCHION can distinguish materially different reasons for missing telemetry without ad-hoc reasoning or manufactured certainty.
+The experiment must determine whether ELENCHION can distinguish materially different reasons for missing telemetry without ad hoc reasoning or manufactured certainty.
 
 ---
 
@@ -180,7 +180,7 @@ collection degradation cannot propagate into dependent reasoning
 
 contradiction cannot be preserved cleanly
 
-the model requires repeated ad-hoc exceptions
+the model requires repeated ad hoc exceptions
 
 the system produces certainty where evidence requires UNKNOWN
 ```

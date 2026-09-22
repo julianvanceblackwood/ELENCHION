@@ -2,9 +2,9 @@
 
 ## Status
 
-Companion specification: [Epistemic Boundaries](EPISTEMIC_BOUNDARIES.md)
-
 **Research specification: provisional**
+
+Companion specification: [Epistemic Boundaries](EPISTEMIC_BOUNDARIES.md)
 
 This document defines the initial logical boundaries governing propositions, observations, evidence, inference, contradiction, and defensible claims within Research Gate 0.
 
@@ -1176,4 +1176,4 @@ Research Gate 0 must test that claim using controlled cases rather than architec
 
 ## Final Principle
 
-> **A conclusion is not defensible merely because its reasoning is valid. Its premises must also survive cross examination by their evidence.**
+> **A conclusion is not defensible merely because its reasoning is valid. Its premises must also survive cross-examination by their evidence.**

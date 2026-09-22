@@ -769,7 +769,7 @@ The current model should be revised if:
 ```text
 the state dimensions cannot be kept semantically distinct
 
-the model requires ad-hoc exceptions for every missing-observation case
+the model requires ad hoc exceptions for every missing-observation case
 
 provenance does not materially affect claim evaluation
 
