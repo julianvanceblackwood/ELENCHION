@@ -6,11 +6,9 @@
 
 Companion specification: [Claim Logic and Inference Boundaries](CLAIM_LOGIC.md)
 
-This document defines the initial semantic boundaries that Research Gate 0 must preserve before implementation is accepted.
+This provisional specification defines the semantic boundaries that Research Gate 0 must preserve before implementation is accepted. It establishes the distinction between reality, observation, recorded representation, evidence, claim, and epistemic state before those concepts are encoded into software.
 
 It does not claim that ELENCHION currently implements these semantics.
-
-The purpose of this specification is to establish the distinction between reality, observation, recorded representation, evidence, claim, and epistemic state before those concepts are encoded into executable software.
 
 ---
 
@@ -116,9 +114,7 @@ Observed(E)
 True(E)
 ```
 
-An observation can correctly represent an event.
-
-An observation can also be incomplete, misleading, duplicated, corrupted, misattributed, or produced under conditions that limit its evidential value.
+An observation may correctly represent an event, but it may also be incomplete, misleading, duplicated, corrupted, misattributed, or produced under conditions that limit its evidential value.
 
 Observation must therefore remain a first-class semantic layer rather than being collapsed directly into a claim.
 
@@ -380,15 +376,7 @@ UNKNOWN
 
 although failure may cause an unknown epistemic result.
 
-A justified `UNKNOWN` is preferable to unsupported certainty.
-
-ELENCHION must therefore allow:
-
-```text
-UNKNOWN
-```
-
-to remain a legitimate final result when available evidence does not justify a stronger state.
+A justified `UNKNOWN` is preferable to unsupported certainty and must remain a legitimate final result when available evidence does not justify a stronger state.
 
 The system should eventually be able to explain why the result is unknown.
 
@@ -784,11 +772,7 @@ the model produces certainty where the controlled experiment requires UNKNOWN
 the proposed dimensions add complexity without improving defensibility
 ```
 
-Failure to satisfy these conditions is evidence against the current model.
-
-Research Gate 0 must allow the thesis to fail.
-
-The architecture must not be expanded merely to conceal a weak or unnecessary abstraction.
+Failure to satisfy these conditions is evidence against the current model. Research Gate 0 must allow the thesis to fail rather than expand the architecture to conceal a weak or unnecessary abstraction.
 
 ---
 

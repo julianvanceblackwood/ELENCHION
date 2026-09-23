@@ -390,6 +390,8 @@ Major architecture decisions should document:
 
 Research results are allowed to change the architecture.
 
+Core domain semantics should remain project-owned and independently testable. Frameworks and dependencies may implement mechanics, but they must not define evidence, provenance, trust, or claim semantics by accident.
+
 ---
 
 ## 18. Automated Assistance

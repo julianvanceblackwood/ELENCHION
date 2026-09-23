@@ -18,9 +18,7 @@ This directory contains the research specifications that define the semantic bas
 
 Research Gate 0 has not yet established executable proof of the thesis.
 
-The current artifacts define the concepts, invariants, and failure boundaries that the future deterministic experiment must preserve.
-
-Implementation volume is not evidence that the gate has passed.
+The current artifacts define the concepts, invariants, and failure boundaries that the deterministic experiment must preserve. Implementation volume alone does not pass the gate.
 
 ---
 
@@ -165,7 +163,7 @@ The experiment must determine whether ELENCHION can distinguish materially diffe
 
 ## Falsification Principle
 
-Research Gate 0 should not be considered successful merely because an implementation can be built.
+Research Gate 0 does not pass merely because an implementation can be built.
 
 The current model must be revised if controlled experiments show that:
 
@@ -185,9 +183,7 @@ the model requires repeated ad hoc exceptions
 the system produces certainty where evidence requires UNKNOWN
 ```
 
-A failed hypothesis is a research result.
-
-It must not be hidden behind additional architecture.
+A failed hypothesis is a research result and must not be hidden behind additional architecture.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ELENCHION is developed through a **foundations-first, evidence-driven engineering method**.
 
-The objective is not to maximize implementation speed, commit volume, or architectural complexity. The objective is to build technical understanding and system capability together so that every important design choice can be explained, tested, challenged, and traced to evidence.
+The objective is not to maximize implementation speed, commit volume, or architectural complexity, but to build technical understanding and system capability together so that every important design choice can be explained, tested, challenged, and traced to evidence.
 
 The method therefore treats learning, research, implementation, verification, and public engineering artifacts as parts of one continuous system.
 
@@ -145,6 +145,8 @@ The rule is:
 
 > **Do not skip a prerequisite that materially affects correctness. Do not add a prerequisite that exists only for appearance.**
 
+Every symbol, node, edge, state, transition, and direction used in a formal model or diagram must be explainable before implementation depends on it.
+
 ---
 
 ## 4. Stage 2: Foundations Before Abstractions
@@ -203,6 +205,8 @@ The development session should be able to answer:
 - Which failure modes are possible?
 
 Diagrams, tables, truth tables, set notation, state tables, small examples, and paper exercises may be used where they improve reasoning.
+
+A diagram is not explanatory by itself. Every node, edge, symbol, direction, and relationship must have explicit semantics.
 
 A clean mental model is not proof that the design is correct, but an unclear mental model is evidence that implementation is premature.
 
@@ -297,6 +301,10 @@ Each meaningful line must be understood in terms of:
 - relationship to project invariants.
 
 Repeated concepts may be explained again. Familiarity is not assumed to equal understanding.
+
+Core ELENCHION semantics should be defined in project-owned models before a framework or third-party library is allowed to encode them. Dependencies may support implementation, testing, transport, or tooling, but they must not silently become the specification.
+
+First-principles implementations may be used to expose mechanics and build project-owned primitives. Production trust boundaries should still prefer audited primitives when reimplementation would create avoidable security risk.
 
 ---
 

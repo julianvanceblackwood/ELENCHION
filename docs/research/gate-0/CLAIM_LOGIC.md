@@ -6,13 +6,9 @@
 
 Companion specification: [Epistemic Boundaries](EPISTEMIC_BOUNDARIES.md)
 
-This document defines the initial logical boundaries governing propositions, observations, evidence, inference, contradiction, and defensible claims within Research Gate 0.
+This provisional specification defines the logical boundaries governing propositions, observations, evidence, inference, contradiction, and defensible claims within Research Gate 0. It establishes which logical transformations are admissible, which remain unsupported, and which forms of reasoning must be explicitly rejected.
 
-It does not define production inference behavior.
-
-It does not claim that ELENCHION currently implements these semantics.
-
-The purpose of this specification is to establish which logical transformations are currently admissible, which remain unsupported, and which forms of reasoning must be explicitly rejected.
+It does not define production inference behavior or claim that ELENCHION currently implements these semantics.
 
 ---
 
@@ -34,9 +30,7 @@ what an inference rule permits
 what the system may defensibly claim
 ```
 
-These concepts are related.
-
-They are not interchangeable.
+These concepts are related but not interchangeable.
 
 The initial reasoning boundary is:
 
@@ -936,7 +930,7 @@ This dimension is independent of reasoning validity.
 
 ## 24. Defensible Claim Boundary
 
-A strong ELENCHION claim should require both:
+A defensible ELENCHION claim requires both:
 
 ```text
 Reasoning Integrity
@@ -1154,21 +1148,13 @@ automated theorem proving
 production rule engines
 ```
 
-These subjects may become relevant later.
-
-They must not be introduced merely for sophistication.
-
-They should enter the system only when a concrete research problem requires them.
+These subjects may become relevant later, but should enter the system only when a concrete research problem requires them.
 
 ---
 
 ## 29. Research Direction
 
-The immediate objective is not to build a universal reasoning engine.
-
-The immediate objective is narrower:
-
-> Determine whether explicit separation between world propositions, observation propositions, evidence support, premise defensibility, and inference validity produces more defensible execution analysis.
+The immediate objective is not to build a universal reasoning engine. It is to determine whether explicit separation between world propositions, observation propositions, evidence support, premise defensibility, and inference validity produces more defensible execution analysis.
 
 Research Gate 0 must test that claim using controlled cases rather than architectural assumption.
 

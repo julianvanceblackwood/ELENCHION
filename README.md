@@ -4,13 +4,13 @@
 
 > **Every claim must survive cross-examination by its evidence.**
 
-ELENCHION is an open research and engineering project investigating how defensible knowledge can be reconstructed from program execution when observation is incomplete, sensors have limits, clocks disagree, evidence conflicts, and uncertainty cannot honestly be eliminated.
+ELENCHION is a research and engineering project for reconstructing defensible execution knowledge when observation is incomplete, sensors have limits, clocks disagree, evidence conflicts, and uncertainty cannot honestly be eliminated.
 
-It is not intended to become another verdict engine, malware dashboard, sandbox wrapper, or automated reporting layer.
+It is not a verdict engine, malware dashboard, sandbox wrapper, or automated reporting layer.
 
 The central problem is narrower and harder:
 
-> **How much of an execution do we actually know and why are we justified in claiming that we know it?**
+> **How much of an execution do we actually know, and why are we justified in claiming that we know it?**
 
 ---
 
@@ -45,13 +45,13 @@ The central problem is narrower and harder:
 
 ### Current Research Gate
 
-**Research Gate 0: Establish whether claim-level provenance, observation capability, sensor health, contradiction, temporal uncertainty, and trust dependencies materially improve the defensibility of execution analysis.**
+**Research Gate 0 asks whether claim-level provenance, observation capability, sensor health, contradiction, temporal uncertainty, and trust dependencies materially improve execution-analysis defensibility.**
 
 The gate is passed by evidence, not by implementation volume.
 
 Research packet: [`docs/research/gate-0/`](docs/research/gate-0/README.md)
 
-Before flagship engineering begins, ELENCHION must produce a falsifiable model, controlled experiments, measurable failure cases, and a benchmark capable of distinguishing evidence-bounded reasoning from ordinary event-centric reporting.
+Before broader engineering begins, ELENCHION must produce a falsifiable model, controlled experiments, measurable failure cases, and a benchmark capable of distinguishing evidence-bounded reasoning from ordinary event-centric reporting.
 
 ---
 
@@ -145,9 +145,7 @@ Can another analyst reproduce the conclusion?
 What evidence would reduce the remaining uncertainty?
 ```
 
-The objective is not maximum telemetry.
-
-The objective is:
+The objective is not maximum telemetry. It is:
 
 > **maximum defensible execution knowledge.**
 
@@ -733,7 +731,7 @@ A query surface should expose uncertainty, not hide it.
 
 ## Research Thesis
 
-Current working thesis:
+Working thesis:
 
 > **Execution-analysis systems can produce more defensible conclusions when provenance, observation capability, sensor health, contradiction, temporal uncertainty, and trust dependencies are represented at claim level rather than being collapsed into a final event stream or verdict.**
 

@@ -12,9 +12,9 @@ Read:
 * `docs/engineering/ENGINEERING_PRINCIPLES.md`
 * `SECURITY.md`
 
-A contribution should have a clear relationship to the project's research or engineering mission.
+Every contribution should have a clear relationship to the project's research or engineering mission.
 
-Complexity, novelty, automation, or additional code are not sufficient reasons by themselves.
+Complexity, novelty, automation, and code volume are not evidence of value.
 
 ## When to Open an Issue
 
