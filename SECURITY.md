@@ -4,7 +4,7 @@
 
 ELENCHION is defensive security research and engineering infrastructure.
 
-Security reports are treated as engineering evidence. Reports should contain enough information to reproduce, bound, and evaluate the affected behavior without unnecessarily increasing public exposure.
+A useful security report makes the affected behavior reproducible and bounded while avoiding unnecessary public exposure.
 
 ## Reporting a Vulnerability
 
@@ -119,6 +119,6 @@ Public advisories should separate verified facts from assumptions and should ide
 
 > Security claims require evidence.
 
-A control is not considered effective merely because it exists in documentation or configuration.
+A documented or configured control is not evidence that the control works.
 
-Where practical, security properties should eventually be supported by tests, policy evidence, architecture boundaries, reproducible validation, or independent assessment.
+Security properties should be backed, where practical, by tests, policy evidence, architecture boundaries, reproducible validation, or independent assessment.

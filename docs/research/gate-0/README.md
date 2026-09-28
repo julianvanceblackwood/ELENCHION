@@ -2,13 +2,11 @@
 
 ## Purpose
 
-Research Gate 0 tests the smallest useful form of ELENCHION's central thesis:
+Research Gate 0 is the first attempt to falsify ELENCHION's core claim:
 
-> **Execution-analysis claims should remain bounded by what the available evidence can actually justify.**
+> **Execution-analysis conclusions should not be stronger than the evidence and observation conditions that support them.**
 
-The gate focuses on incomplete observation, sensor capability, collection failure, contradiction, provenance, trust degradation, and the logical boundaries between evidence and claim.
-
-This directory contains the research specifications that define the semantic baseline for the first controlled experiment.
+The gate isolates incomplete observation, sensor capability, collection failure, contradiction, provenance, trust degradation, and claim logic. The documents in this directory define the semantics that the first deterministic experiment must preserve.
 
 ---
 
@@ -16,11 +14,9 @@ This directory contains the research specifications that define the semantic bas
 
 **Phase Zero research specification**
 
-Research Gate 0 has not yet established executable proof of the thesis.
+Gate 0 has not passed. The repository currently contains the semantic baseline and failure boundaries; executable validation is the next step.
 
-The current artifacts define the concepts, invariants, and failure boundaries that the future deterministic experiment must preserve.
-
-Implementation volume is not evidence that the gate has passed.
+The gate is satisfied by controlled results, not by implementation volume.
 
 ---
 
@@ -101,7 +97,7 @@ Epistemic State
 
 Every transition represents a potential information-loss, trust, interpretation, or reasoning boundary.
 
-Research Gate 0 exists to determine whether making those boundaries explicit produces measurably more defensible execution analysis.
+The experiment will test whether keeping those boundaries explicit changes the conclusions a system is allowed to make.
 
 ---
 
@@ -165,7 +161,7 @@ The experiment must determine whether ELENCHION can distinguish materially diffe
 
 ## Falsification Principle
 
-Research Gate 0 should not be considered successful merely because an implementation can be built.
+A working implementation is not sufficient to pass Gate 0.
 
 The current model must be revised if controlled experiments show that:
 
@@ -185,9 +181,7 @@ the model requires repeated ad hoc exceptions
 the system produces certainty where evidence requires UNKNOWN
 ```
 
-A failed hypothesis is a research result.
-
-It must not be hidden behind additional architecture.
+A falsified hypothesis is a valid result. The model should be revised instead of protected with additional architecture.
 
 ---
 
@@ -244,4 +238,4 @@ See:
 
 ## Gate Principle
 
-> **The gate advances when evidence supports the model, not when implementation volume increases.**
+> **Gate 0 advances only when controlled evidence justifies the model.**

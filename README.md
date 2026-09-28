@@ -4,13 +4,13 @@
 
 > **Every claim must survive cross-examination by its evidence.**
 
-ELENCHION is an open research and engineering project investigating how defensible knowledge can be reconstructed from program execution when observation is incomplete, sensors have limits, clocks disagree, evidence conflicts, and uncertainty cannot honestly be eliminated.
+ELENCHION is a research project about a narrow systems problem: what can be justified about a program execution when the observation system is incomplete, lossy, contradictory, or partly untrusted?
 
-It is not intended to become another verdict engine, malware dashboard, sandbox wrapper, or automated reporting layer.
+Telemetry is treated as evidence with limits, not as a direct transcript of reality. More events, more automation, or a cleaner report do not by themselves strengthen a conclusion.
 
-The central problem is narrower and harder:
+The central question is:
 
-> **How much of an execution do we actually know and why are we justified in claiming that we know it?**
+> **How much of an execution do we actually know, and what evidence justifies that claim?**
 
 ---
 
@@ -24,10 +24,10 @@ The central problem is narrower and harder:
 | **Core Invariant** | No claim without provenance |
 | **Primary Research Question** | What can be defensibly claimed from incomplete and potentially untrustworthy execution evidence? |
 | **Current Focus** | Provenance, sensor capability, negative evidence, temporal uncertainty, contradiction, trust degradation |
-| **Human Role** | Analyst remains first-class; automation must preserve reviewability |
-| **Automation Role** | Optional reasoning assistance; never raw evidence |
+| **Human Role** | Analyst reviews claims, contradictions, and unknowns |
+| **Automation Role** | May assist transformation or reasoning; never promoted to raw evidence |
 | **Security Boundary** | Defensive analysis and assurance research |
-| **Implementation Status** | Research model and repository discipline established; production platform not yet claimed |
+| **Implementation Status** | Gate 0 semantics and research specifications exist; executable validation is next |
 
 ### Navigate
 
@@ -45,13 +45,11 @@ The central problem is narrower and harder:
 
 ### Current Research Gate
 
-**Research Gate 0: Establish whether claim-level provenance, observation capability, sensor health, contradiction, temporal uncertainty, and trust dependencies materially improve the defensibility of execution analysis.**
-
-The gate is passed by evidence, not by implementation volume.
+**Research Gate 0 asks whether claim-level provenance, observation capability, sensor health, contradiction, temporal uncertainty, and trust dependencies change the quality of conclusions under controlled failure.**
 
 Research packet: [`docs/research/gate-0/`](docs/research/gate-0/README.md)
 
-Before flagship engineering begins, ELENCHION must produce a falsifiable model, controlled experiments, measurable failure cases, and a benchmark capable of distinguishing evidence-bounded reasoning from ordinary event-centric reporting.
+The next milestone is executable evidence: deterministic scenarios, explicit failure cases, and benchmarkable comparisons against simpler event-centric handling. Gate 0 advances only if those experiments justify the added model complexity.
 
 ---
 
@@ -71,7 +69,7 @@ Detections
 Report
 ```
 
-ELENCHION treats that abstraction as insufficient.
+That pipeline hides where knowledge can be lost, transformed, or overstated.
 
 Two constraints define the research problem:
 
@@ -99,7 +97,7 @@ That observation alone does not establish:
 * whether the conclusion is observed or inferred;
 * whether an alternative explanation remains possible.
 
-ELENCHION makes those boundaries first-class engineering data.
+ELENCHION records those boundaries explicitly so later claims can be weakened, contradicted, or left unknown when the evidence requires it.
 
 ---
 
@@ -145,17 +143,13 @@ Can another analyst reproduce the conclusion?
 What evidence would reduce the remaining uncertainty?
 ```
 
-The objective is not maximum telemetry.
-
-The objective is:
-
-> **maximum defensible execution knowledge.**
+The project optimizes for defensible knowledge rather than telemetry volume.
 
 ---
 
 ## Core Invariants
 
-ELENCHION is being designed around several non-negotiable principles.
+Five invariants constrain the current research model.
 
 ### 1. No Claim Without Provenance
 
@@ -218,9 +212,9 @@ Temporal precedence, dependency, correlation, information flow, and causality mu
 
 ### 4. Automation Is Not Evidence
 
-Generated summaries, hypotheses, classifications, or explanations are not raw evidence.
+Summaries, hypotheses, classifications, and explanations produced by automation are derived artifacts, not raw evidence.
 
-Automated assistance may support reasoning only when its outputs remain traceable to supporting evidence and are clearly identified as derived or hypothetical.
+They may assist analysis only when their inputs remain traceable and the output is labeled according to what it actually is: derived, inferred, or hypothetical.
 
 ### 5. UNKNOWN Is a Valid Result
 
@@ -484,11 +478,9 @@ function degrade_trust(source):
             affected.push(dependent)
 ```
 
-This research direction is referred to as:
+We call this **Trust-Degradation Analysis**.
 
-> **Trust-Degradation Analysis**
-
-The goal is to make evidence failure computationally visible rather than silently hidden beneath a final report.
+A source failure should remain visible in every dependent claim instead of disappearing behind the final report.
 
 ---
 
@@ -597,11 +589,11 @@ Previously Hidden Behavior
 Unexplored Behavior
 ```
 
-The objective is not simply to run a sample more times.
+Additional runs are useful only when they reduce a specific uncertainty or expose environment-dependent behavior.
 
-The objective is to determine:
+The open question is:
 
-> **Which additional execution provides the highest defensible information gain?**
+> **Which next execution provides enough defensible information gain to justify its cost and risk?**
 
 ---
 
@@ -657,9 +649,7 @@ Generate confident report
 
 ## Provisional Architecture Hypothesis
 
-Architecture is **not finalized**.
-
-The current research hypothesis is:
+The following diagram is a working decomposition, not a committed architecture. Components survive only if experiments justify the separation:
 
 ```mermaid
 flowchart TD
@@ -859,7 +849,7 @@ See:
 
 [`docs/engineering/ENGINEERING_PRINCIPLES.md`](docs/engineering/ENGINEERING_PRINCIPLES.md)
 
-The repository history is intended to function as engineering evidence, not activity theater.
+Repository history should make the reasoning behind important changes inspectable.
 
 ---
 

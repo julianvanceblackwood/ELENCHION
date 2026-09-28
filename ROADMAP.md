@@ -1,10 +1,8 @@
 # ELENCHION Roadmap
 
-> **The roadmap is a research hypothesis, not a promise of architecture.**
+> **This roadmap describes research gates, not promised architecture.**
 
-ELENCHION evolves only when evidence justifies the next layer of complexity.
-
-The project deliberately separates research validation from production engineering. A phase is not complete because files, services, diagrams, or dashboards exist. Progress requires explicit exit evidence.
+Each phase has exit evidence. Files, services, diagrams, or dashboards do not count as progress unless they establish the property the phase is meant to test.
 
 ---
 
@@ -241,9 +239,7 @@ Potential deliverables include:
 * interoperability documentation;
 * independent replication guidance.
 
-The goal is not merely adoption.
-
-The goal is independent scrutiny.
+External scrutiny is the intended outcome. The project should be reproducible enough for another researcher or engineer to challenge the method and results.
 
 ---
 
@@ -281,6 +277,4 @@ If the answer is unknown, the project records the unknown.
 
 ## Roadmap Rule
 
-ELENCHION does not advance because a calendar says it should.
-
-It advances when the evidence supports the next engineering decision.
+Phase transitions are evidence decisions, not calendar decisions.

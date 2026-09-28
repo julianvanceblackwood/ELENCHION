@@ -2,13 +2,13 @@
 
 ## Purpose
 
-ELENCHION is developed through a **foundations-first, evidence-driven engineering method**.
+ELENCHION uses a **foundations-first, evidence-driven development method**.
 
-The objective is not to maximize implementation speed, commit volume, or architectural complexity. The objective is to build technical understanding and system capability together so that every important design choice can be explained, tested, challenged, and traced to evidence.
+The method couples learning to the problem being solved. Concepts are studied far enough to reason about the system without hiding behind an API, then converted into a model, experiment, implementation, and reviewable evidence.
 
-The method therefore treats learning, research, implementation, verification, and public engineering artifacts as parts of one continuous system.
+Speed and commit volume are not optimization targets. The target is a change whose semantics can be explained and whose behavior can be tested.
 
-> **Understanding precedes implementation. Evidence precedes confidence.**
+> **Understand the primitive before depending on the abstraction.**
 
 ---
 
@@ -90,7 +90,7 @@ Engineering Evidence
 Public Artifact
 ```
 
-A public artifact is not created merely to increase repository activity. It must preserve real engineering value.
+A public artifact belongs in the repository only when it preserves useful engineering or research evidence.
 
 ---
 
@@ -183,7 +183,7 @@ Evidence digest
 ← cryptographic hash properties
 ```
 
-The purpose is not academic ceremony. The purpose is to prevent software syntax from disguising misunderstood semantics.
+This is not academic staging. It prevents software syntax from hiding a semantic assumption we do not actually understand.
 
 ---
 
@@ -227,9 +227,7 @@ Sensor C
 incapable of observing one event class
 ```
 
-The question is not whether a large platform can be constructed.
-
-The question is whether the model can distinguish materially different evidence conditions without manufacturing certainty.
+For Gate 0, the useful question is whether the model distinguishes materially different evidence conditions without manufacturing certainty. Platform size is irrelevant to that test.
 
 Microexperiments should be:
 
@@ -360,7 +358,7 @@ Regression test
 
 Errors should not be patched by changing code until the symptom disappears.
 
-The goal is to identify why the system behaved as it did and preserve a test that prevents recurrence when practical.
+Debugging ends when the cause is bounded well enough to explain the behavior and, where practical, a regression test preserves that knowledge.
 
 ---
 
@@ -378,7 +376,7 @@ real-time
 efficient
 ```
 
-must eventually identify the measured dimension and method.
+require a stated metric and measurement method.
 
 Possible dimensions include:
 
@@ -523,7 +521,7 @@ High-value portfolio artifacts may include:
 - rigorous pull-request review;
 - explicit limitations.
 
-Activity theater is explicitly rejected.
+Repository activity is not used as a proxy for engineering quality.
 
 ---
 
@@ -695,8 +693,8 @@ The non-negotiable principle is that important conclusions must remain explainab
 
 ## Final Principle
 
-ELENCHION does not separate learning from engineering, or engineering from evidence.
+Learning is useful here when it changes the quality of an engineering decision.
 
-The project advances by converting understanding into models, models into experiments, experiments into implementation, and implementation into evidence that can survive review.
+The project moves from understanding to model, experiment, implementation, and evidence. Each transition should leave enough context for another engineer to challenge it.
 
-> **Build only what can be understood, tested, measured, and defended.**
+> **Build what can be explained, tested, measured, and defended.**

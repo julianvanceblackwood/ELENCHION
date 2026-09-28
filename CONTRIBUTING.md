@@ -2,7 +2,7 @@
 
 Thank you for considering a contribution to ELENCHION.
 
-ELENCHION is being developed as research and engineering infrastructure for evidence-bounded execution intelligence. Contributions should strengthen the project's ability to produce conclusions that can be inspected, measured, reproduced, and challenged.
+ELENCHION is research infrastructure for evidence-bounded execution analysis. Contributions should make a claim easier to inspect, reproduce, falsify, or verify.
 
 ## Before Contributing
 
@@ -74,7 +74,7 @@ docs: document evidence-bounded claim model
 
 ## Pull Requests
 
-Pull requests are review units, not administrative ceremony.
+A pull request is the unit of review. Its description should make the engineering argument understandable without reconstructing it from the diff alone.
 
 A substantial pull request should explain:
 
@@ -149,11 +149,9 @@ Unsupported certainty is not.
 
 ## Code Contributions
 
-Implementation should not begin by assuming an architecture, language, framework, database, graph model, inference model, or deployment pattern merely because it appears sophisticated.
+Do not choose an architecture, language, framework, database, graph model, inference model, or deployment pattern for appearance. Start from the requirement and the failure mode.
 
-Implementation choices should follow requirements.
-
-When code is introduced, contributions should eventually include appropriate validation such as tests, negative cases, failure handling, performance measurement, or reproducibility evidence according to the risk of the change.
+Code changes need validation proportional to their risk. Depending on the change, that may mean tests, negative cases, failure handling, performance measurement, or reproducibility evidence.
 
 ## Documentation
 
@@ -174,13 +172,9 @@ when those qualifiers are required.
 
 ## Tool-Assisted Work
 
-Tool-assisted contributions are permitted.
+Tool assistance is allowed, but responsibility stays with the contributor.
 
-Generated output is not evidence by default.
-
-The contributor remains responsible for correctness, licensing, security, provenance, validation, and every claim introduced into the repository.
-
-Do not merge generated code or prose solely because it appears technically sophisticated.
+Generated code or prose is untrusted input until it has been read, checked against repository semantics, validated where applicable, and reviewed for licensing and security. Tool output does not become evidence by being fluent or technically styled.
 
 ## Security
 
@@ -196,7 +190,7 @@ The project does not accept deployable malware, credential theft, ransomware, of
 
 ## Definition of Done
 
-A change is not complete merely because it compiles, renders, or passes CI.
+Compilation, rendering, or a green CI run may be necessary, but none is a complete definition of done.
 
 Depending on scope, completion may require:
 
@@ -224,4 +218,4 @@ The amount of process should remain proportional to the risk and significance of
 
 ## Final Principle
 
-> Build only what survives evidence, measurement, falsification, and adversarial review.
+> Build what can be explained, tested, reproduced, and challenged.

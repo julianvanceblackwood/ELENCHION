@@ -2,13 +2,9 @@
 
 ## 1. Purpose
 
-ELENCHION is developed as research and engineering infrastructure for evidence-bounded execution intelligence.
+ELENCHION is research and engineering infrastructure for evidence-bounded execution analysis.
 
-The repository must preserve a traceable relationship between problems, evidence, decisions, implementation, validation, and claims.
-
-Repository activity is not an end in itself.
-
-A commit, pull request, architecture component, benchmark, security control, or research artifact is valuable only when its purpose can be explained and its claims can be defended.
+Important work should leave a trace from problem to evidence, decision, implementation, validation, and claim. Repository activity has no value on its own; an artifact matters when its purpose is clear and its claims are defensible.
 
 ---
 
@@ -84,9 +80,7 @@ An explicit UNKNOWN is preferable to an unsupported conclusion.
 
 ## 5. Problem-First Engineering
 
-Features do not begin with implementation.
-
-Substantial work should begin with a documented problem.
+Substantial work begins with a problem statement, not an implementation choice.
 
 A useful problem statement should explain:
 
@@ -159,7 +153,7 @@ Artificially splitting one logical change into many commits is discouraged.
 
 Combining unrelated changes into one commit is also discouraged.
 
-Commit messages should describe why the repository changed, not merely which files changed.
+Commit messages should capture the engineering reason for the change, not just the files touched.
 
 ---
 
@@ -200,13 +194,13 @@ A substantial pull request should explain:
 * failure and rollback considerations;
 * areas requiring reviewer attention.
 
-A green CI state does not substitute for review.
+Green CI answers only the checks that exist. It does not replace review.
 
 ---
 
 ## 10. Review Is Cross-Examination
 
-Review is not ceremonial approval.
+Review is an attempt to break the argument behind the change before the change reaches main.
 
 Relevant review dimensions include:
 
@@ -248,7 +242,7 @@ Public repository content must be treated as disclosed information.
 
 Security controls should be justified by the threat they reduce.
 
-Security theater is not assurance.
+A control that cannot be tied to a threat, test, or boundary should not be treated as assurance.
 
 ---
 
@@ -299,7 +293,7 @@ When an operation fails, the system should preserve enough context to determine:
 
 ## 14. Performance Claims Require Measurement
 
-Performance adjectives are not evidence.
+Performance language requires a metric.
 
 Terms such as:
 
@@ -363,9 +357,7 @@ Relevant testing strategies may include:
 * performance benchmarks;
 * reproducibility checks.
 
-Test quantity alone is not assurance.
-
-Tests should target meaningful failure modes.
+Test count is not an assurance metric. Tests should target the failure modes that could invalidate the claim.
 
 ---
 
@@ -394,9 +386,7 @@ Research results are allowed to change the architecture.
 
 ## 18. Automated Assistance
 
-Generated output is not evidence by default.
-
-Generated hypotheses, summaries, transformations, or recommendations must not silently become factual findings.
+Automation output is an untrusted derived artifact until its inputs, transformation, and validation are understood. A generated hypothesis, summary, transformation, or recommendation must not silently become a factual finding.
 
 Where automated tooling contributes to a conclusion, the system should preserve enough information to identify:
 
@@ -447,6 +437,4 @@ Before accepting a significant change, ask:
 * Can an assessor verify the security claim?
 * Does this complexity have measurable value?
 
-ELENCHION should not optimize for appearing sophisticated.
-
-It should optimize for conclusions and systems that survive hostile scrutiny.
+A design earns complexity only when it adds measurable capability or reduces a documented risk. Important conclusions should remain inspectable under hostile scrutiny.
