@@ -718,7 +718,7 @@ Sensor A
 
 capable
 healthy
-complete for experiment scope
+complete within experiment scope
 ```
 
 ```text

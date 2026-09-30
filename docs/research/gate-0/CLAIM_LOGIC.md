@@ -715,7 +715,7 @@ What observation assumptions were required?
 Which premise becomes invalid if a source loses trust?
 ```
 
-This creates a bridge between formal logic and provenance.
+This ties formal reasoning directly to provenance.
 
 ---
 
@@ -936,7 +936,7 @@ This dimension is independent of reasoning validity.
 
 ## 24. Defensible Claim Boundary
 
-A strong ELENCHION claim should require both:
+A defensible ELENCHION claim requires both:
 
 ```text
 Reasoning Integrity
@@ -1154,19 +1154,13 @@ automated theorem proving
 production rule engines
 ```
 
-These subjects may become relevant later.
-
-They must not be introduced merely for sophistication.
-
-They should enter the system only when a concrete research problem requires them.
+These subjects may become relevant later, but only when a concrete research problem requires them.
 
 ---
 
 ## 29. Research Direction
 
-The immediate objective is not to build a universal reasoning engine.
-
-The immediate objective is narrower:
+The immediate objective is not to build a universal reasoning engine. It is to answer the following research question:
 
 > Determine whether explicit separation between world propositions, observation propositions, evidence support, premise defensibility, and inference validity produces more defensible execution analysis.
 

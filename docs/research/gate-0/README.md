@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Research Gate 0 tests the smallest useful form of ELENCHION's central thesis:
+Research Gate 0 tests a minimal form of ELENCHION's central thesis:
 
 > **Execution-analysis claims should remain bounded by what the available evidence can actually justify.**
 
@@ -18,7 +18,7 @@ This directory contains the research specifications that define the semantic bas
 
 Research Gate 0 has not yet established executable proof of the thesis.
 
-The current artifacts define the concepts, invariants, and failure boundaries that the future deterministic experiment must preserve.
+The current artifacts define the concepts, invariants, and failure boundaries that the deterministic experiment must preserve.
 
 Implementation volume is not evidence that the gate has passed.
 
@@ -79,7 +79,7 @@ It establishes why logical validity and evidential defensibility must remain sep
 
 ## Research Gate 0 Model
 
-The current conceptual chain is:
+The current model is:
 
 ```text
 Reality
@@ -101,7 +101,7 @@ Epistemic State
 
 Every transition represents a potential information-loss, trust, interpretation, or reasoning boundary.
 
-Research Gate 0 exists to determine whether making those boundaries explicit produces measurably more defensible execution analysis.
+Research Gate 0 tests whether making those boundaries explicit produces measurably more defensible execution analysis.
 
 ---
 
@@ -137,14 +137,14 @@ These are research requirements, not claims of current implementation.
 
 ## Controlled Experiment Direction
 
-The first executable experiment is expected to compare controlled sensor conditions such as:
+The first executable experiment will compare controlled sensor conditions such as:
 
 ```text
 Sensor A
 
 capable
 healthy
-complete for experiment scope
+complete within experiment scope
 
 
 Sensor B
