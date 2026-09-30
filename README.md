@@ -6,9 +6,9 @@
 
 ELENCHION is an open research and engineering project investigating how defensible knowledge can be reconstructed from program execution when observation is incomplete, sensors have limits, clocks disagree, evidence conflicts, and uncertainty cannot honestly be eliminated.
 
-It is not intended to become another verdict engine, malware dashboard, sandbox wrapper, or automated reporting layer.
+ELENCHION is not a verdict engine, malware dashboard, sandbox wrapper, or automated reporting layer.
 
-The central problem is narrower and harder:
+The central research question is narrower:
 
 > **How much of an execution do we actually know and why are we justified in claiming that we know it?**
 
@@ -105,7 +105,7 @@ ELENCHION makes those boundaries first-class engineering data.
 
 ## Mission
 
-For a program execution, ELENCHION is intended to make questions like these answerable:
+For a program execution, ELENCHION should make questions like these answerable:
 
 ```text
 What executed?
@@ -145,11 +145,9 @@ Can another analyst reproduce the conclusion?
 What evidence would reduce the remaining uncertainty?
 ```
 
-The objective is not maximum telemetry.
+The objective is not to maximize telemetry.
 
-The objective is:
-
-> **maximum defensible execution knowledge.**
+The objective is to maximize defensible execution knowledge.
 
 ---
 
@@ -441,7 +439,7 @@ It describes the behavior the research model must eventually make precise and te
 
 ## Trust-Degradation Analysis
 
-ELENCHION is also investigating a reverse question:
+ELENCHION also examines the reverse dependency question:
 
 > **If a sensor or evidence source becomes untrusted, which higher-level conclusions collapse?**
 
@@ -488,7 +486,7 @@ This research direction is referred to as:
 
 > **Trust-Degradation Analysis**
 
-The goal is to make evidence failure computationally visible rather than silently hidden beneath a final report.
+The goal is to make evidence failure computationally visible instead of hiding it beneath a final report.
 
 ---
 
@@ -699,7 +697,7 @@ flowchart TD
 
 This architecture remains provisional.
 
-Research is expected to change it.
+Experimental results may change it.
 
 ---
 
@@ -786,7 +784,7 @@ ELENCHION is currently in:
 * public repository identity
 * cryptographically signed Git history
 * repository engineering principles
-* problem-first Issue / branch / PR discipline
+* problem-first issue / branch / PR discipline
 * defensive project boundary
 * initial research thesis
 * initial evidence-bounded claim model

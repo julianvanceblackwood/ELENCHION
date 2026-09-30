@@ -4,7 +4,7 @@
 
 ELENCHION is developed through a **foundations-first, evidence-driven engineering method**.
 
-The objective is not to maximize implementation speed, commit volume, or architectural complexity. The objective is to build technical understanding and system capability together so that every important design choice can be explained, tested, challenged, and traced to evidence.
+The objective is not to maximize implementation speed, commit volume, or architectural complexity. The goal is to build technical understanding and system capability together so that every important design choice can be explained, tested, challenged, and traced to evidence.
 
 The method therefore treats learning, research, implementation, verification, and public engineering artifacts as parts of one continuous system.
 
@@ -183,7 +183,7 @@ Evidence digest
 ← cryptographic hash properties
 ```
 
-The purpose is not academic ceremony. The purpose is to prevent software syntax from disguising misunderstood semantics.
+The goal is to prevent software syntax from hiding misunderstood semantics.
 
 ---
 
@@ -523,7 +523,7 @@ High-value portfolio artifacts may include:
 - rigorous pull-request review;
 - explicit limitations.
 
-Activity theater is explicitly rejected.
+Repository activity is not treated as evidence of engineering quality.
 
 ---
 
