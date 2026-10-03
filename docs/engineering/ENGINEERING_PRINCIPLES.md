@@ -206,7 +206,7 @@ A green CI state does not substitute for review.
 
 ## 10. Review Is Cross-Examination
 
-Review is not ceremonial approval.
+Review is an engineering check, not ceremonial approval.
 
 Relevant review dimensions include:
 
@@ -394,9 +394,9 @@ Research results are allowed to change the architecture.
 
 ## 18. Automated Assistance
 
-Generated output is not evidence by default.
+Automated output is not evidence by default.
 
-Generated hypotheses, summaries, transformations, or recommendations must not silently become factual findings.
+Automated hypotheses, summaries, transformations, or recommendations must not silently become factual findings.
 
 Where automated tooling contributes to a conclusion, the system should preserve enough information to identify:
 
@@ -447,6 +447,4 @@ Before accepting a significant change, ask:
 * Can an assessor verify the security claim?
 * Does this complexity have measurable value?
 
-ELENCHION should not optimize for appearing sophisticated.
-
-It should optimize for conclusions and systems that survive hostile scrutiny.
+ELENCHION should prioritize conclusions and systems that survive hostile scrutiny over appearance or unnecessary complexity.

@@ -165,7 +165,7 @@ The experiment must determine whether ELENCHION can distinguish materially diffe
 
 ## Falsification Principle
 
-Research Gate 0 should not be considered successful merely because an implementation can be built.
+Building an implementation does not by itself satisfy Research Gate 0.
 
 The current model must be revised if controlled experiments show that:
 
@@ -185,9 +185,7 @@ the model requires repeated ad hoc exceptions
 the system produces certainty where evidence requires UNKNOWN
 ```
 
-A failed hypothesis is a research result.
-
-It must not be hidden behind additional architecture.
+A failed hypothesis remains a research result and should not be hidden behind additional architecture.
 
 ---
 

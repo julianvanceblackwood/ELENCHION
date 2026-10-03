@@ -4,9 +4,9 @@
 
 > **Every claim must survive cross-examination by its evidence.**
 
-ELENCHION is an open research and engineering project investigating how defensible knowledge can be reconstructed from program execution when observation is incomplete, sensors have limits, clocks disagree, evidence conflicts, and uncertainty cannot honestly be eliminated.
+ELENCHION is an open research and engineering project focused on reconstructing defensible knowledge from program execution under incomplete observation, limited sensors, disagreeing clocks, conflicting evidence, and irreducible uncertainty.
 
-ELENCHION is not a verdict engine, malware dashboard, sandbox wrapper, or automated reporting layer.
+ELENCHION does not attempt to be a verdict engine, malware dashboard, sandbox wrapper, or automated reporting layer.
 
 The central research question is narrower:
 
@@ -145,9 +145,7 @@ Can another analyst reproduce the conclusion?
 What evidence would reduce the remaining uncertainty?
 ```
 
-The objective is not to maximize telemetry.
-
-The objective is to maximize defensible execution knowledge.
+The goal is to maximize defensible execution knowledge, not telemetry volume.
 
 ---
 
@@ -274,7 +272,7 @@ ELENCHION currently distinguishes three independent dimensions.
 | `UNTRUSTED`         | Source cannot support dependent conclusions         |
 | `UNKNOWN`           | Trust cannot currently be established               |
 
-These dimensions remain separate deliberately.
+These dimensions are deliberately kept separate.
 
 A claim may be `OBSERVED` while its source is `DEGRADED`.
 
@@ -439,7 +437,7 @@ It describes the behavior the research model must eventually make precise and te
 
 ## Trust-Degradation Analysis
 
-ELENCHION also examines the reverse dependency question:
+ELENCHION also examines the dependency chain in reverse:
 
 > **If a sensor or evidence source becomes untrusted, which higher-level conclusions collapse?**
 
@@ -486,7 +484,7 @@ This research direction is referred to as:
 
 > **Trust-Degradation Analysis**
 
-The goal is to make evidence failure computationally visible instead of hiding it beneath a final report.
+The goal is to make evidence failure computationally visible rather than burying it in a final report.
 
 ---
 
@@ -695,9 +693,7 @@ flowchart TD
     HR --> AU[Custody / Audit / Assurance]
 ```
 
-This architecture remains provisional.
-
-Experimental results may change it.
+This architecture remains provisional and may change as experimental results accumulate.
 
 ---
 
