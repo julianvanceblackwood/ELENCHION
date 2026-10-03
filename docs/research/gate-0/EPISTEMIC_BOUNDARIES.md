@@ -34,7 +34,7 @@ Claim
 Epistemic State
 ```
 
-These layers must not silently collapse into one another.
+The model must keep these layers distinct.
 
 The central rule is:
 
@@ -788,7 +788,7 @@ Failure to satisfy these conditions is evidence against the current model.
 
 Research Gate 0 must allow the thesis to fail.
 
-The architecture must not be expanded merely to conceal a weak or unnecessary abstraction.
+Additional architecture must not be used to conceal a weak or unnecessary abstraction.
 
 ---
 
@@ -927,7 +927,7 @@ This ordering exists to prevent programming constructs from hiding unresolved se
 
 The implementation must conform to the research model.
 
-The research model must not be retroactively rewritten merely to justify convenient implementation.
+Implementation convenience must not retroactively redefine the research model.
 
 ---
 

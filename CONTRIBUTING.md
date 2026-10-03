@@ -14,7 +14,7 @@ Read:
 
 A contribution should have a clear relationship to the project's research or engineering mission.
 
-Complexity, novelty, automation, or additional code are not sufficient reasons by themselves.
+Complexity, novelty, automation, or additional code do not justify a change on their own.
 
 ## When to Open an Issue
 
@@ -143,13 +143,11 @@ Interpretation
 Limitations
 ```
 
-A failed hypothesis is an acceptable result.
-
-Unsupported certainty is not.
+A failed hypothesis is an acceptable research result; unsupported certainty is not.
 
 ## Code Contributions
 
-Implementation should not begin by assuming an architecture, language, framework, database, graph model, inference model, or deployment pattern merely because it appears sophisticated.
+Implementation should not begin with an architecture, language, framework, database, graph model, inference model, or deployment pattern simply because it appears sophisticated.
 
 Implementation choices should follow requirements.
 
@@ -180,7 +178,7 @@ Generated output is not evidence by default.
 
 The contributor remains responsible for correctness, licensing, security, provenance, validation, and every claim introduced into the repository.
 
-Do not merge generated code or prose solely because it appears technically sophisticated.
+Generated code or prose must satisfy the same review, licensing, security, provenance, and validation standards as any other contribution.
 
 ## Security
 
@@ -196,7 +194,7 @@ The project does not accept deployable malware, credential theft, ransomware, of
 
 ## Definition of Done
 
-A change is not complete merely because it compiles, renders, or passes CI.
+A change is not complete just because it compiles, renders, or passes CI.
 
 Depending on scope, completion may require:
 

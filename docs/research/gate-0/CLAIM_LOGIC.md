@@ -34,9 +34,7 @@ what an inference rule permits
 what the system may defensibly claim
 ```
 
-These concepts are related.
-
-They are not interchangeable.
+These concepts are related but not interchangeable.
 
 The initial reasoning boundary is:
 
@@ -80,9 +78,7 @@ A proposition may be true while the strongest defensible epistemic result availa
 UNKNOWN
 ```
 
-This separation is fundamental.
-
-The system must never treat its internal knowledge state as direct access to reality.
+This distinction is fundamental: the system must never treat its internal knowledge state as direct access to reality.
 
 ---
 
@@ -302,7 +298,7 @@ persistence failed
 coverage is unknown
 ```
 
-The existence of multiple explanations must not be collapsed into one preferred explanation without evidence.
+When several explanations remain possible, the model must preserve them until evidence distinguishes among them.
 
 ---
 
@@ -789,7 +785,7 @@ Evidence B supports ¬P
 
 which represent conflicting support rather than direct proof that reality simultaneously satisfies both propositions.
 
-The reasoning model must not destroy conflicting evidence merely to restore visual consistency.
+The reasoning model must preserve conflicting evidence instead of discarding it for apparent consistency.
 
 ---
 
@@ -866,7 +862,7 @@ bounded negative evidence
 
 The result remains bounded by the strength of the observation contract.
 
-Research Gate 0 must not assume perfect completeness merely because no event appears in telemetry.
+Research Gate 0 must not infer perfect completeness from missing telemetry.
 
 ---
 
