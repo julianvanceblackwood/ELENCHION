@@ -993,3 +993,4 @@ And when possible:
 No open-source license has been selected yet.
 
 Until a license is added, no permission beyond applicable copyright law should be assumed.
+
