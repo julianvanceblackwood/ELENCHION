@@ -6,13 +6,7 @@
 
 Companion specification: [Epistemic Boundaries](EPISTEMIC_BOUNDARIES.md)
 
-This document defines the initial logical boundaries governing propositions, observations, evidence, inference, contradiction, and defensible claims within Research Gate 0.
-
-It does not define production inference behavior.
-
-It does not claim that ELENCHION currently implements these semantics.
-
-The purpose of this specification is to establish which logical transformations are currently admissible, which remain unsupported, and which forms of reasoning must be explicitly rejected.
+This specification defines the initial logical boundaries governing propositions, observations, evidence, inference, contradiction, and defensible claims within Research Gate 0. It identifies which logical transformations are admissible, which remain unsupported, and which forms of reasoning must be rejected. These semantics are provisional and are not claimed as implemented production behavior.
 
 ---
 
@@ -124,9 +118,7 @@ Therefore:
 
 is a core Research Gate 0 invariant.
 
-The absence of an observation describes the observation system.
-
-It does not, by itself, describe the underlying world.
+An absent observation describes the observation system; by itself, it does not describe the underlying world.
 
 ---
 
@@ -452,11 +444,7 @@ Q
 
 This is Modus Ponens.
 
-The inference structure is valid.
-
-However, validity concerns logical form.
-
-It does not independently establish the truth of the premises.
+The inference structure is valid, but validity concerns logical form and does not establish the truth of the premises.
 
 ELENCHION must therefore maintain the distinction between:
 
@@ -1150,7 +1138,7 @@ automated theorem proving
 production rule engines
 ```
 
-These subjects may become relevant later, but only when a concrete research problem requires them.
+These subjects enter the model only when a concrete research problem requires them.
 
 ---
 

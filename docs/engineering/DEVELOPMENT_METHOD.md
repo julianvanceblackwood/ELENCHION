@@ -183,7 +183,7 @@ Evidence digest
 ← cryptographic hash properties
 ```
 
-The point is to prevent software syntax from hiding misunderstood semantics.
+Software syntax must not hide unresolved semantics.
 
 ---
 
