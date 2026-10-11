@@ -6,9 +6,7 @@
 
 Companion specification: [Claim Logic and Inference Boundaries](CLAIM_LOGIC.md)
 
-This document defines the initial semantic boundaries that Research Gate 0 must preserve before implementation is accepted.
-
-It does not claim that ELENCHION currently implements these semantics.
+This specification defines the initial semantic boundaries that Research Gate 0 must preserve before implementation is accepted. These semantics are provisional and are not claimed as implemented behavior.
 
 The purpose of this specification is to establish the distinction between reality, observation, recorded representation, evidence, claim, and epistemic state before those concepts are encoded into executable software.
 
@@ -198,7 +196,7 @@ Evidence is information or an artifact used to support, weaken, or contradict a 
 
 Evidence is not represented as an isolated value.
 
-Useful evidence must preserve enough provenance to answer questions such as:
+Evidence must preserve enough provenance to answer questions such as:
 
 ```text
 Who produced it?
@@ -380,7 +378,7 @@ UNKNOWN
 
 although failure may cause an unknown epistemic result.
 
-A justified `UNKNOWN` is preferable to unsupported certainty.
+When evidence cannot justify a stronger state, `UNKNOWN` is the correct result.
 
 ELENCHION must therefore allow:
 

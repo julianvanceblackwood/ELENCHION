@@ -206,7 +206,7 @@ A green CI state does not substitute for review.
 
 ## 10. Review Is Cross-Examination
 
-Review is an engineering check, not ceremonial approval.
+Review is an engineering challenge to the change, not a ceremonial approval step.
 
 Relevant review dimensions include:
 
@@ -447,4 +447,4 @@ Before accepting a significant change, ask:
 * Can an assessor verify the security claim?
 * Does this complexity have measurable value?
 
-ELENCHION should prioritize conclusions and systems that survive hostile scrutiny over appearance or unnecessary complexity.
+ELENCHION prioritizes conclusions and systems that survive hostile scrutiny over appearance or unnecessary complexity.

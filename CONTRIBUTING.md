@@ -143,7 +143,7 @@ Interpretation
 Limitations
 ```
 
-A failed hypothesis is an acceptable research result; unsupported certainty is not.
+A failed hypothesis is a valid research result; unsupported certainty is not.
 
 ## Code Contributions
 
@@ -194,7 +194,7 @@ The project does not accept deployable malware, credential theft, ransomware, of
 
 ## Definition of Done
 
-A change is not complete just because it compiles, renders, or passes CI.
+Compilation, rendering, or a green CI result alone does not make a change complete.
 
 Depending on scope, completion may require:
 

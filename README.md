@@ -8,7 +8,7 @@ ELENCHION is an open research and engineering project focused on reconstructing 
 
 ELENCHION does not attempt to be a verdict engine, malware dashboard, sandbox wrapper, or automated reporting layer.
 
-The central research question is narrower:
+The project is organized around one research question:
 
 > **How much of an execution do we actually know and why are we justified in claiming that we know it?**
 
@@ -51,7 +51,7 @@ The gate is passed by evidence, not by implementation volume.
 
 Research packet: [`docs/research/gate-0/`](docs/research/gate-0/README.md)
 
-Before flagship engineering begins, ELENCHION must produce a falsifiable model, controlled experiments, measurable failure cases, and a benchmark capable of distinguishing evidence-bounded reasoning from ordinary event-centric reporting.
+Before larger implementation work begins, ELENCHION must produce a falsifiable model, controlled experiments, measurable failure cases, and a benchmark that distinguishes evidence-bounded reasoning from ordinary event-centric reporting.
 
 ---
 
@@ -99,7 +99,7 @@ That observation alone does not establish:
 * whether the conclusion is observed or inferred;
 * whether an alternative explanation remains possible.
 
-ELENCHION makes those boundaries first-class engineering data.
+ELENCHION represents those boundaries explicitly.
 
 ---
 
@@ -151,7 +151,7 @@ The goal is to maximize defensible execution knowledge, not telemetry volume.
 
 ## Core Invariants
 
-ELENCHION is being designed around several non-negotiable principles.
+The current design is constrained by the following principles.
 
 ### 1. No Claim Without Provenance
 
@@ -340,9 +340,7 @@ UNKNOWN
 Exact userspace API responsible for the write
 ```
 
-The claim is therefore not represented as an isolated Boolean fact.
-
-It carries the boundaries under which the claim remains defensible.
+The claim is not an isolated Boolean fact; it carries the boundaries under which it remains defensible.
 
 ---
 
@@ -593,9 +591,7 @@ Previously Hidden Behavior
 Unexplored Behavior
 ```
 
-The objective is not simply to run a sample more times.
-
-The objective is to determine:
+Repeated execution is useful only if it helps answer:
 
 > **Which additional execution provides the highest defensible information gain?**
 
@@ -811,9 +807,7 @@ ELENCHION is currently in:
 * production assurance engine
 * autonomous analysis
 
-This distinction is intentional.
-
-ELENCHION will not describe planned architecture as existing capability.
+This distinction is deliberate. Planned architecture is not presented as implemented capability.
 
 ---
 
@@ -993,4 +987,3 @@ And when possible:
 No open-source license has been selected yet.
 
 Until a license is added, no permission beyond applicable copyright law should be assumed.
-

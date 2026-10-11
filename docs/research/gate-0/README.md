@@ -20,7 +20,7 @@ Research Gate 0 has not yet established executable proof of the thesis.
 
 The current artifacts define the concepts, invariants, and failure boundaries that the deterministic experiment must preserve.
 
-Implementation volume is not evidence that the gate has passed.
+Implementation volume does not satisfy the gate.
 
 ---
 
