@@ -2,13 +2,13 @@
 
 ## Purpose
 
-ELENCHION is developed through a **foundations-first, evidence-driven engineering method**.
+ELENCHION is developed through a **problem-driven, first-principles, evidence-driven engineering method**.
 
 The method prioritizes technical understanding and system capability over implementation speed, commit volume, or architectural complexity. Important design choices should be explainable, testable, challengeable, and traceable to evidence.
 
 Learning, research, implementation, verification, and public engineering artifacts are treated as parts of one continuous system.
 
-> **Understanding precedes implementation. Evidence precedes confidence.**
+> **The active problem drives learning. Understanding and implementation advance together, while evidence constrains confidence.**
 
 ---
 
@@ -18,7 +18,9 @@ ELENCHION advances through three parallel tracks.
 
 ### Knowledge Track
 
-Build the foundations required to understand the problem correctly.
+Build the foundations required by the active engineering problem, at the depth needed to reason about the current slice correctly.
+
+Learning is pulled by the work rather than completed as a detached curriculum.
 
 This may include:
 
@@ -73,15 +75,17 @@ Examples include:
 The three tracks are intentionally connected:
 
 ```text
-Foundations
+Problem
     ↓
-Understanding
+Required Foundations
     ↓
-Model
+Working Model
     ↓
-Experiment
+Small Experiment
     ↓
 Implementation
+    ↓
+Failure / Debugging
     ↓
 Verification
     ↓
@@ -89,6 +93,8 @@ Engineering Evidence
     ↓
 Public Artifact
 ```
+
+The loop may return from implementation or debugging to foundations whenever the system exposes a concept that is not yet understood well enough.
 
 A public artifact is not created merely to increase repository activity. It must preserve real engineering value.
 
@@ -115,9 +121,11 @@ A problem that cannot be explained clearly is not ready for implementation.
 
 ---
 
-## 3. Stage 1: Build the Prerequisite Map
+## 3. Stage 1: Map the Required Prerequisites
 
-Before writing code, identify the knowledge required to reason about the problem without hiding behind abstractions.
+Before each implementation slice, identify the knowledge required to reason about that slice without hiding behind abstractions.
+
+The map is intentionally narrow. A prerequisite is learned when the active problem requires it, then immediately exercised in the model, experiment, implementation, or debugging work.
 
 For example, a sensor-capability model may require understanding:
 
@@ -147,9 +155,29 @@ The rule is:
 
 ---
 
-## 4. Stage 2: Foundations Before Abstractions
+## 4. Stage 2: Learn Through the Active Problem
 
-A concept is developed from its primitive form before its software representation is introduced.
+A concept is developed from its primitive form when the active problem reaches that boundary.
+
+Small implementation probes may expose what is not yet understood. When that happens, development pauses at the unresolved concept, the relevant foundation is learned from first principles, and the result is immediately tested against the project.
+
+The working loop is:
+
+```text
+Problem
+  ↓
+Attempt to model or build
+  ↓
+Unknown or weak assumption discovered
+  ↓
+Learn the required foundation
+  ↓
+Run a focused experiment
+  ↓
+Return to the implementation
+```
+
+The goal is not to finish a curriculum before engineering begins. The goal is to prevent unresolved semantics from hiding behind software abstractions.
 
 If the implementation eventually uses an enum, graph, probability, queue, hash, state machine, parser, lock, thread, process, socket, memory mapping, cryptographic digest, or database transaction, the underlying concept is studied first.
 
@@ -189,7 +217,9 @@ Software syntax must not hide unresolved semantics.
 
 ## 5. Stage 3: Establish the Mental Model
 
-Before code, the system behavior should be explainable without code.
+Before a design, abstraction, or claim is accepted, the relevant system behavior should be explainable without hiding behind code.
+
+A small implementation probe may come first when it is the fastest way to expose an unknown, but the probe does not become an accepted abstraction until its behavior and assumptions can be explained.
 
 The development session should be able to answer:
 
@@ -460,9 +490,9 @@ Commit count is not a performance metric.
 
 ## 14. Stage 12: Convert Learning Into Engineering Evidence
 
-Not every lesson becomes a repository artifact.
+Learning and implementation should reinforce each other, but not every lesson becomes a repository artifact.
 
-A concept enters the repository when it produces project-relevant evidence.
+A concept enters the repository when working on it produces project-relevant evidence, a clearer specification, a reproducible experiment, a test, a measured result, a debugging artifact, or a defensible engineering decision.
 
 Examples:
 
@@ -697,6 +727,6 @@ The non-negotiable principle is that important conclusions must remain explainab
 
 ELENCHION does not separate learning from engineering, or engineering from evidence.
 
-The project advances by converting understanding into models, models into experiments, experiments into implementation, and implementation into evidence that can survive review.
+The project advances by using real engineering problems to expose missing knowledge, turning that knowledge into experiments and implementation, and turning implementation into evidence that can survive review.
 
-> **Build only what can be understood, tested, measured, and defended.**
+> **Build to learn. Learn to explain. Verify with evidence. Defend every important claim.**
