@@ -14,11 +14,15 @@ This directory contains the research specifications that define the semantic bas
 
 ## Current Status
 
-**Phase Zero research specification**
+**Phase Zero research validation in progress**
 
-Research Gate 0 has not yet established executable proof of the thesis.
+The first executable baseline is now merged:
 
-The current artifacts define the concepts, invariants, and failure boundaries that the deterministic experiment must preserve.
+[Experiment 001: Absence Collision](../../../experiments/gate0/experiment_001_absence_collision.py)
+
+The experiment establishes one narrow result: a flat record-presence model cannot distinguish a capable-but-degraded sensor from a sensor that cannot observe the event class when both produce no record.
+
+This does not establish the full ELENCHION thesis. Claim evaluation, trust propagation, contradiction handling, provenance dependencies, and justified `UNKNOWN` outcomes remain open research work.
 
 Implementation volume does not satisfy the gate.
 
@@ -137,29 +141,32 @@ These are research requirements, not claims of current implementation.
 
 ## Controlled Experiment Direction
 
-The first executable experiment will compare controlled sensor conditions such as:
+Experiment 001 now establishes the baseline collision:
 
 ```text
 Sensor A
 
 capable
 healthy
-complete within experiment scope
+record available
 
 
 Sensor B
 
 capable
 degraded
-selected observations intentionally lost
+record absent
 
 
 Sensor C
 
-incapable of observing one event class
+incapable of observing the event class
+record absent
 ```
 
-The experiment must determine whether ELENCHION can distinguish materially different reasons for missing telemetry without ad hoc reasoning or manufactured certainty.
+Sensors B and C produce the same flat record-level result for different observation conditions.
+
+The next research work must preserve that distinction through explicit evidence and claim semantics rather than inferring event absence from missing telemetry.
 
 ---
 
@@ -210,7 +217,7 @@ Those decisions remain downstream of validated requirements.
 
 ## Development Rule
 
-Research Gate 0 follows the repository's foundations-first development method:
+Research Gate 0 follows the repository's problem-driven, first-principles development method:
 
 ```text
 Problem
