@@ -31,6 +31,7 @@ The project is organized around one research question:
 
 ### Navigate
 
+[External Evaluation](docs/EXTERNAL_EVALUATION.md) ·
 [Research Thesis](#research-thesis) ·
 [Evidence-Bounded Claim](#evidence-bounded-claim) ·
 [Execution Pipeline](#execution-intelligence-pipeline) ·
