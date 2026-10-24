@@ -665,6 +665,12 @@ Generate confident report
 
 ---
 
+## Falsifiable research map
+
+![ELENCHION conceptual technical architecture showing research-only sensors, claims, provenance and experiment gates](assets/technical-map.svg)
+
+*Every block in this schematic is part of Phase Zero research, not a deployed subsystem. See [Research Gate 0](docs/research/gate-0/README.md).*
+
 ## Provisional Architecture Hypothesis
 
 Architecture is **not finalized**.
