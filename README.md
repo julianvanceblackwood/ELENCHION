@@ -14,6 +14,12 @@ The project is organized around one research question:
 
 ---
 
+## Evidence under observation
+
+![Animated ELENCHION research schematic of multiple sensors feeding bounded claims](assets/research-flow.gif)
+
+*Illustrative research model, not a running execution-analysis engine.* See [external research evaluation](docs/EXTERNAL_EVALUATION.md) for hypotheses, falsification questions and implementation boundaries.
+
 ## At a Glance
 
 | Dimension | Current State |
