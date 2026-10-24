@@ -1,3 +1,9 @@
+<p align="center"><img src="assets/research-hero.svg" width="100%" alt="ELENCHION identity and conceptual progression from sensor observations through provenance and bounded claims." /></p>
+
+[**Research Gate 0**](docs/research/gate-0/README.md) · [**External review**](docs/EXTERNAL_EVALUATION.md) · [**Current state**](#current-project-state) · [**Research roadmap**](ROADMAP.md)
+
+**PHASE ZERO:** evidence-bounded claim thesis and falsifiable research model; a working execution intelligence engine is not yet claimed.
+
 # ELENCHION
 
 **Evidence-Bounded Execution Intelligence Under Hostile Scrutiny**
@@ -14,11 +20,16 @@ The project is organized around one research question:
 
 ---
 
-## Evidence under observation
+## Visual model
 
-![Animated ELENCHION research schematic of multiple sensors feeding bounded claims](assets/research-flow.gif)
+<details>
+<summary><strong>View the evidence-bounded claim research schematic</strong></summary>
 
-*Illustrative research model, not a running execution-analysis engine.* See [external research evaluation](docs/EXTERNAL_EVALUATION.md) for hypotheses, falsification questions and implementation boundaries.
+![ELENCHION conceptual sensor and bounded-claim flow](assets/research-flow.gif)
+
+This diagram describes a research hypothesis, not a production execution engine.
+
+</details>
 
 ## At a Glance
 
